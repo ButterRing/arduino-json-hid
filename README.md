@@ -181,7 +181,7 @@ An document from a computer perspective.
 | string | string | keyboard print text |
 
 
-## Mouse Modifires
+### Mouse Modifires
 | value | description |
 | --- | ---|
 | LEFT | mouse left button |
@@ -189,7 +189,7 @@ An document from a computer perspective.
 | MIDDLE | mouse wheel button |
 
 
-## Keyboard Modifires
+### Keyboard Modifires
 | value | description |
 | --- | --- |
 | LEFT_CTRL | left ctrl key |
