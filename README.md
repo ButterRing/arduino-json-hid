@@ -7,6 +7,24 @@ enable ATmega32u4 or SAMD micro based boards.
 
 An document from a computer perspective.
 
+## Table of Contents
+* [Serial Write](.#Serial-Write)
+  * [Template JSON](.#Template-JSON)
+  * [method mouse.move](.#method-mouse.move)
+  * [method mouse.click](.#method-mouse.click)
+  * [method mouse.press](.#method-mouse.press)
+  * [method mouse.release](.#method-mouse.release)
+  * [method keyboard.write](.#method-keyboard.write)
+  * [method keyboard.press](.#method-keyboard.press)
+  * [method keyboard.release](.#method-keyboard.release)
+  * [method keyboard.releaseAll](.#method-keyboard.releaseAll)
+  * [method keyboard.print](.#method-keyboard.print)
+  * [method keyboard.println](.#method-keyboard.println)
+  * [Mouse Modifires](.#Mouse-Modifires)
+  * [Keyboard Modifires](.#Keyboard-Modifires)
+* [Serial Read](.#Serial-Read)
+  * [Command Results](.#Command-Results)
+
 ## Serial Write
 
 ### Template JSON
@@ -33,7 +51,7 @@ An document from a computer perspective.
 | object | commands.params | HID command params |
 | int | commands.params.delay | HID command delay, global delay override |
 
-### "method" mouse.move
+### method mouse.move
 ``` json
 {
   "method": "mouse.move",
@@ -50,7 +68,7 @@ An document from a computer perspective.
 | int | y | Relative y-axis movement of the current mouse position |
 | int | wheel | Mouse wheel |
 
-### "method" mouse.click
+### method mouse.click
 ``` json
 {
   "method": "mouse.click",
@@ -63,7 +81,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | button | [Mouse Modifiers](.#Mouse-Modifires) |
 
-### "method" mouse.press
+### method mouse.press
 ``` json
 {
   "method": "mouse.press",
@@ -76,7 +94,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | button | [Mouse Modifiers](.#Mouse-Modifires) |
 
-### "method" mouse.release
+### method mouse.release
 ``` json
 {
   "method": "mouse.release",
@@ -89,7 +107,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | button | [Mouse Modifiers](.#Mouse-Modifires) |
 
-### "method" keyboard.write
+### method keyboard.write
 ``` json
 {
   "method": "keyboard.write",
@@ -102,7 +120,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](.#Keyboard-Modifires) |
 
-### "method" keyboard.press
+### method keyboard.press
 ``` json
 {
   "method": "keyboard.press",
@@ -115,7 +133,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](.#Keyboard-Modifires) |
 
-### "method" keyboard.release
+### method keyboard.release
 ``` json
 {
   "method": "keyboard.release",
@@ -128,7 +146,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](.#Keyboard-Modifires) |
 
-### "method" keyboard.releaseAll
+### method keyboard.releaseAll
 ``` json
 {
   "method": "keyboard.releaseAll",
@@ -136,7 +154,7 @@ An document from a computer perspective.
 }
 ```
 
-### "method" keyboard.print
+### method keyboard.print
 ``` json
 {
   "method": "keyboard.print",
@@ -149,7 +167,7 @@ An document from a computer perspective.
 | ---:| --- | --- |
 | string | string | keyboard print text |
 
-### "method" keyboard.println
+### method keyboard.println
 ``` json
 {
   "method": "keyboard.println",
