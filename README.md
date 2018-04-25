@@ -8,22 +8,22 @@ enable ATmega32u4 or SAMD micro based boards.
 An document from a computer perspective.
 
 ## Table of Contents
-* [Serial Write](.#Serial-Write)
-  * [Template JSON](.#Template-JSON)
-  * [method mouse.move](.#method-mouse.move)
-  * [method mouse.click](.#method-mouse.click)
-  * [method mouse.press](.#method-mouse.press)
-  * [method mouse.release](.#method-mouse.release)
-  * [method keyboard.write](.#method-keyboard.write)
-  * [method keyboard.press](.#method-keyboard.press)
-  * [method keyboard.release](.#method-keyboard.release)
-  * [method keyboard.releaseAll](.#method-keyboard.releaseAll)
-  * [method keyboard.print](.#method-keyboard.print)
-  * [method keyboard.println](.#method-keyboard.println)
-  * [Mouse Modifires](.#Mouse-Modifires)
-  * [Keyboard Modifires](.#Keyboard-Modifires)
-* [Serial Read](.#Serial-Read)
-  * [Command Results](.#Command-Results)
+* [Serial Write](./README.md#Serial-Write)
+  * [Template JSON](./README.md#Template-JSON)
+  * [method mouse.move](./README.md#method-mouse.move)
+  * [method mouse.click](./README.md#method-mouse.click)
+  * [method mouse.press](./README.md#method-mouse.press)
+  * [method mouse.release](./README.md#method-mouse.release)
+  * [method keyboard.write](./README.md#method-keyboard.write)
+  * [method keyboard.press](./README.md#method-keyboard.press)
+  * [method keyboard.release](./README.md#method-keyboard.release)
+  * [method keyboard.releaseAll](./README.md#method-keyboard.releaseAll)
+  * [method keyboard.print](./README.md#method-keyboard.print)
+  * [method keyboard.println](./README.md#method-keyboard.println)
+  * [Mouse Modifires](./README.md#Mouse-Modifires)
+  * [Keyboard Modifires](./README.md#Keyboard-Modifires)
+* [Serial Read](./README.md#Serial-Read)
+  * [Command Results](./README.md#Command-Results)
 
 ## Serial Write
 
@@ -79,7 +79,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | button | [Mouse Modifiers](.#Mouse-Modifires) |
+| string | button | [Mouse Modifiers](./README.md#Mouse-Modifires) |
 
 ### method mouse.press
 ``` json
@@ -92,7 +92,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | button | [Mouse Modifiers](.#Mouse-Modifires) |
+| string | button | [Mouse Modifiers](./README.md#Mouse-Modifires) |
 
 ### method mouse.release
 ``` json
@@ -105,7 +105,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | button | [Mouse Modifiers](.#Mouse-Modifires) |
+| string | button | [Mouse Modifiers](./README.md#Mouse-Modifires) |
 
 ### method keyboard.write
 ``` json
@@ -118,7 +118,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](.#Keyboard-Modifires) |
+| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#Keyboard-Modifires) |
 
 ### method keyboard.press
 ``` json
@@ -131,7 +131,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](.#Keyboard-Modifires) |
+| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#Keyboard-Modifires) |
 
 ### method keyboard.release
 ``` json
@@ -144,7 +144,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](.#Keyboard-Modifires) |
+| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#Keyboard-Modifires) |
 
 ### method keyboard.releaseAll
 ``` json
