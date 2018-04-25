@@ -8,22 +8,22 @@ enable ATmega32u4 or SAMD micro based boards.
 An document from a computer perspective.
 
 ## Table of Contents
-* [Serial Write](./README.md#Serial-Write)
-  * [Template JSON](./README.md#Template-JSON)
-  * [method mouse.move](./README.md#method-mouse.move)
-  * [method mouse.click](./README.md#method-mouse.click)
-  * [method mouse.press](./README.md#method-mouse.press)
-  * [method mouse.release](./README.md#method-mouse.release)
-  * [method keyboard.write](./README.md#method-keyboard.write)
-  * [method keyboard.press](./README.md#method-keyboard.press)
-  * [method keyboard.release](./README.md#method-keyboard.release)
-  * [method keyboard.releaseAll](./README.md#method-keyboard.releaseAll)
-  * [method keyboard.print](./README.md#method-keyboard.print)
-  * [method keyboard.println](./README.md#method-keyboard.println)
-  * [Mouse Modifires](./README.md#Mouse-Modifires)
-  * [Keyboard Modifires](./README.md#Keyboard-Modifires)
-* [Serial Read](./README.md#Serial-Read)
-  * [Command Results](./README.md#Command-Results)
+* [Serial Write](./README.md#serial-write)
+  * [Template JSON](./README.md#template-json)
+  * [method mouse.move](./README.md#method-mousemove)
+  * [method mouse.click](./README.md#method-mouseclick)
+  * [method mouse.press](./README.md#method-mousepress)
+  * [method mouse.release](./README.md#method-mouserelease)
+  * [method keyboard.write](./README.md#method-keyboardwrite)
+  * [method keyboard.press](./README.md#method-keyboardpress)
+  * [method keyboard.release](./README.md#method-keyboardrelease)
+  * [method keyboard.releaseAll](./README.md#method-keyboardreleaseAll)
+  * [method keyboard.print](./README.md#method-keyboardprint)
+  * [method keyboard.println](./README.md#method-keyboardprintln)
+  * [Mouse Modifires](./README.md#mouse-modifires)
+  * [Keyboard Modifires](./README.md#keyboard-modifires)
+* [Serial Read](./README.md#serial-read)
+  * [Command Results](./README.md#command-results)
 
 ## Serial Write
 
@@ -79,7 +79,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | button | [Mouse Modifiers](./README.md#Mouse-Modifires) |
+| string | button | [Mouse Modifiers](./README.md#mouse-modifires) |
 
 ### method mouse.press
 ``` json
@@ -92,7 +92,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | button | [Mouse Modifiers](./README.md#Mouse-Modifires) |
+| string | button | [Mouse Modifiers](./README.md#mouse-modifires) |
 
 ### method mouse.release
 ``` json
@@ -105,7 +105,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | button | [Mouse Modifiers](./README.md#Mouse-Modifires) |
+| string | button | [Mouse Modifiers](./README.md#mouse-modifires) |
 
 ### method keyboard.write
 ``` json
@@ -118,7 +118,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#Keyboard-Modifires) |
+| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#keyboard-modifires) |
 
 ### method keyboard.press
 ``` json
@@ -131,7 +131,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#Keyboard-Modifires) |
+| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#keyboard-modifires) |
 
 ### method keyboard.release
 ``` json
@@ -144,7 +144,7 @@ An document from a computer perspective.
 ```
 | type | json key | description |
 | ---:| --- | --- |
-| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#Keyboard-Modifires) |
+| string | key | char \| int \| hex \| oct \| [Keyboard Modifiers](./README.md#keyboard-modifires) |
 
 ### method keyboard.releaseAll
 ``` json
